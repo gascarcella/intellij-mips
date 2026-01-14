@@ -2,7 +2,7 @@
   <id>com.equadon.intellij.mips</id>
   <name>MIPS</name>
   <version>0.1</version>
-  <vendor email="niklas.persson@gmail.com" url="http://www.equadon.com">Niklas Persson</vendor>
+  <vendor email="niklas.persson@gmail.com" url="http://www.equadon.com">Niklas Persson &amp; Gabriel Scarcella (gascarcella)</vendor>
 
   <description><![CDATA[
       <p>MIPS assembly language plugin for IntelliJ IDEA.</p>

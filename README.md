@@ -7,6 +7,11 @@ and simulate MIPS assembly files.
 
 **Note:** This is a fork of [equadon/intellij-mips](https://github.com/equadon/intellij-mips) to keep this plugin working on modern IntelliJ IDE/JetBrains IDEs.
 
+## Authors
+
+- **Niklas Persson** - Original author ([equadon/intellij-mips](https://github.com/equadon/intellij-mips))
+- **Gabriel Scarcella** ([@gascarcella](https://github.com/gascarcella)) - Current maintainer
+
 ## Building
 
 This project has been migrated to use Gradle. The lexer and parser are automatically generated from `Mips.flex` and `Mips.bnf` files during compilation using Grammar-Kit and JFlex.
@@ -58,6 +63,43 @@ After building the plugin, you can install it in any JetBrains IDE:
 * Live and file templates
 * Commenter
 * Code completion
+
+## Contributing
+
+We welcome contributions to the MIPS Assembly Language Plugin! Here's how you can help:
+
+### Reporting Issues
+
+If you encounter a bug or have a feature request:
+
+1. Check the [Issues](https://github.com/gascarcella/intellij-mips/issues) page to see if it's already reported
+2. If not, create a new issue with:
+   - A clear, descriptive title
+   - Detailed description of the problem or feature
+   - Steps to reproduce (for bugs)
+   - Your environment (IDE version, plugin version, OS)
+
+### Contributing Code
+
+1. **Fork the repository** to your GitHub account
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/intellij-mips.git
+   cd intellij-mips
+   ```
+3. **Create a feature branch** for your changes:
+   ```bash
+   git checkout -b feat/your-feature-name
+   ```
+4. **Make your changes** and test them using `./gradlew runIde`
+5. **Commit your changes** with clear, descriptive commit messages
+6. **Push to your fork**:
+   ```bash
+   git push origin feat/your-feature-name
+   ```
+7. **Open a Pull Request** from your fork to the main repository
+
+Please ensure your code follows the existing style and includes appropriate tests where applicable.
 
 ## Known issues
 
