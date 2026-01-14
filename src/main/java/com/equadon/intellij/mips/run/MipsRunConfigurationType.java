@@ -31,6 +31,12 @@ public class MipsRunConfigurationType extends ConfigurationTypeBase {
     addFactory(new ConfigurationFactory(this) {
       @NotNull
       @Override
+      public String getId() {
+        return "MipsRunConfigurationFactory";
+      }
+
+      @NotNull
+      @Override
       public RunConfiguration createTemplateConfiguration(@NotNull Project project) {
         return new MipsRunConfiguration(project, this);
       }
